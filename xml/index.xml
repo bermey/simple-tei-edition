@@ -3,22 +3,38 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <p>Information about the source</p>
-         </sourceDesc>
-      </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-         <p>Some text here.</p>
-      </body>
-  </text>
-</TEI>
+     <teiHeader>
+       <fileDesc>
+          <titleStmt>
+             <title>Conversión en la Catedral</title>
+          </titleStmt>
+          <publicationStmt>
+             <p>Inédito</p>
+          </publicationStmt>
+          <sourceDesc>
+             <p>Digital</p>
+          </sourceDesc>
+       </fileDesc>
+   </teiHeader>
+   <text>
+       <body>
+          <p>quiem y que había convertido unos ojos que alguna vez fueron negros y <lb/>
+             penetrantes en un <del>velo</del><add place="above"><del rend="striketrough">cura</del>velo</add> <del>la esperma</del> <add place="above"><del>la</del> <del>el velo</del> el aura</add> de los cirios funerarios. <lb/>
+             Qué diferencia con la energía y convicción del hombre que hace apenas <lb/>
+             un año me convenció para que me entregara, concluyó <add place="above">El Patrón</add> con algo de triste<lb/>za
+             y desencanto <add place="inline">.</add> <del>El Patrón.</del> ¿Por qué siempre he estado rodeado de cu<lb/>ras?
+             <del>Escobar</del> <del>r</del><add rend="overwritten">R</add>ecordó entonces que cuando comenzaron sus coqueteos <lb/>
+             con la política y que tantas desgracias habrían de causarle, sus mayo<lb/>res
+             mentores fueron <del>tres sacerdotes, los</del> <add place="above">los</add> curas Cuartas, Lopera y Betancur, <lb/>
+             quienes recorrían los barrios más desahuciados de Medellín proclaman<lb/>do
+             <del>su</del> <add place="above"><del>la</del> su</add> filantropía y fervor <add place="above">de Escobar</add> por la causa de los desprotegidos Y ahora <del>este</del><lb/>
+             <del>el padre García Herreros</del> <add place="above"><del>viejo sacerdote</del> el anciano eudita</add> se juega  todo su prestigio para que los acuer<lb/>dos
+             alcanzados hace unos meses no se vayan al traste. Pero la culpa no <lb/>
+             es mía y él debe creerme.
+          </p>
+          <p>
+             El sacerdote mira a ese hombre <del>al que</del> <add place="above">a quien</add> siempre <del>llama</del> <add place="below">fin</add> <add place="above">le dice</add> Pabllo
+          </p>
+       </body>
+   </text>
+ </TEI>
